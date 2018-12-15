@@ -2,7 +2,7 @@ LEN_OF_EN_ALPH = 26
 class Text:
 
     def __init__(self, text):
-        self.text = text
+        self.text = text.lower()
 
     def find_bias_str(self, bias=1):
         result_string = ''
